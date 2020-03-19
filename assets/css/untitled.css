@@ -8,9 +8,18 @@
   text-align:center;
   top: 60%;
   font-size: x-large;
-  color:white;
-  opacity: 90%;
+  color:black;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.no-cursor{
+  cursor:default;
+}
+
+.container,a,p,div,em,strong{cursor:default;}
+
+.card-title{
+  font-variant: small-caps;
 }
