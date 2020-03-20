@@ -18,8 +18,11 @@
   cursor:default;
 }
 
-.container,a,p,div,em,strong{cursor:default;}
+.container, .a, .footer, .p, .div, .em, .strong{cursor:default;}
 
+a{cursor:default}
+div{cursor:default}
+li{cursor:default}
 .card-title{
   font-variant: small-caps;
 }
