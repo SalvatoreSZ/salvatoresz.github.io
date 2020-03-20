@@ -18,7 +18,18 @@
   cursor:default;
 }
 
-.container, .a, .footer, .p, .div, .em, .strong{cursor:default;}
+.home-caption{
+  color:rgb(201,210,218);
+  font-size: smaller;  
+  font-size: large;
+  font-variant: small-caps;
+  opacity: 75%;
+  color:white;
+  cursor:default;
+}
+
+
+.container, .a, .footer, .p, .div, .em, .strong{cursor:default;user-select: none; }
 
 a{cursor:default}
 div{cursor:default}
