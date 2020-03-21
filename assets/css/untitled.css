@@ -14,16 +14,7 @@
   font-size:22px;
   font-variant: small-caps;
 }
-.image-overlay{
-  position: absolute;
-  text-align:center;
-  top: 60%;
-  font-size: x-large;
-  color:black;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
+
 
 .no-cursor{
   cursor:default;
@@ -52,7 +43,10 @@
   cursor:default;
 }
 
-
+.modal-footer{
+  font-size:20px;
+  vertical-align: middle;
+}
 .container, .test, .a, .footer, .p, .div, .em, .strong{cursor:default;user-select: none; }
 
 a{cursor:default}
