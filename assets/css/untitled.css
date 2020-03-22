@@ -15,9 +15,28 @@
   font-variant: small-caps;
 }
 
+body {
+  top:40%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#particles-js{
+  height:100vh;
+}
 
 .no-cursor{
   cursor:default;
+}
+
+#main{
+  margin:auto;
+}
+main{
+  align-self: center;
 }
 
 .test{
