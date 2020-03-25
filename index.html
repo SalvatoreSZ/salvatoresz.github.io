@@ -25,8 +25,8 @@
 </head>
 <!--style="background-color:#080808"-->
 
-<body style="background-color:#080808" >
- 
+<body style="background-color:#080808">
+
     <!--alternative: fixed-top-->
     <nav class="navbar navbar-dark navbar-expand-lg  bg-white portfolio-navbar gradient">
         <div class="container"><a class=" logo no-cursor">About me</a><button class="navbar-toggler"
@@ -37,11 +37,11 @@
         </div>
     </nav>
     <div id="particles-js" style="position:absolute; width:100%; margin-top:55px"></div>
-    <main class="page landing-page" >
-  
-        <section class="portfolio-block block-intro" >
-                
-            <div class="container" >
+    <main class="page landing-page">
+
+        <section class="portfolio-block block-intro">
+
+            <div class="container">
                 <div class="avatar"
                     style="background-image:url(&quot;assets/img/pic.png&quot;);height:190px;width:190px;">
                 </div>
@@ -159,7 +159,7 @@
                         </div>
                         <!--End modal Project 1-->
 
-                        <!--Modal Distributed Systems Project-->
+                        <!-- Start Modal Distributed Systems Project-->
                         <div class="modal fade bs-example-modal-lg" id="modaldit355" tabindex="-1" role="dialog"
                             aria-labelledby="modaldit355CenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -235,9 +235,67 @@
                         </div>
                         <!--End distributed systems preview-->
 
+                        <!-- Start Modal MBTI AI-->
+                        <div class="modal fade bs-example-modal-lg" id="modaldit824" tabindex="-1" role="dialog"
+                            aria-labelledby="modaldit824CenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modaldit824CenterTitle">DIT824: Software Engineering
+                                            for Data-Intensive AI Applications</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-body row">
+                                            <div class="col-md-3">
+                                                <div class="modal-body row">
+                                                    <a>
+                                                        <img width="100%">
+                                                    </a>
+                                                </div>
+                                                <div class="modal-body row" style="text-align:left">
+                                                    <h5 class="modal-title">Technologies:</h5>
+                                                    <ul class="custom-bullet" style="text-align: left;">
+                                                        <li>Python</li>
+                                                        <li>Tensorflow - Keras</li>
+                                                        <li>Django framework</li>
+                                                        <li>SQLite</li>
+                                                        <li>Deep Learning Neural Network</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8" style="text-align:left;">
+                                                <a class="font-weight-light font-italic no-cursor">
+                                                    In progress...
+                                                </a>
+                                                <br><br>
+                                                <b>Main Features</b>:
+                                                <ul>
+                                                    <a class="font-weight-light">
+                                                        In progress...
+                                                    </a>
+                                                </ul>
+                                                <br>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div style="margin:auto">
+                                            <a target="_blank">
+                                                <p class="icon ion-social-github"> GitHub Repository</p>
+                                            </a>
+                                        </div>
+                                        <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End modal MBTI AI -->
+
                         <!--Start MBTI AI preview-->
                         <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                            <a id="modal_DIT355" type="button">
+                            <a id="modal_DIT824" type="button">
                                 <div class=" view overlay">
                                     <img class="img-fluid image" src="assets/img/ai-brain_46706-608.jpg"
                                         style="width:453px;height:243px;">
@@ -265,10 +323,10 @@
 
                             </a>
                         </div>
-                    <!-- End library software preview-->
+                        <!-- End library software preview-->
 
-                    
-                    <!-- Start parallel parking car preview-->
+
+                        <!-- Start parallel parking car preview-->
                         <div class="col-md-6 col-lg-4 item zoom-on-hover">
                             <a id="modal_DIT355" type="button" href="https://github.com/Georgesarkis/DIT112">
                                 <div class=" view overlay">
@@ -279,7 +337,7 @@
                                 </div>
                             </a>
                         </div>
-                    <!-- End parallel parking car preview-->
+                        <!-- End parallel parking car preview-->
 
                     </div>
                 </div>
@@ -354,8 +412,7 @@
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/theme.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
@@ -396,6 +453,24 @@
 
 
         var testModal2 = function () {
+            try {
+                $("#modaldit355").modal();
+            }
+            catch (e) {
+                alert(e);
+            }
+        }
+
+        var testModal3 = function () {
+            try {
+                $("#modaldit824").modal();
+            }
+            catch (e) {
+                alert(e);
+            }
+        }
+
+        var testModal4 = function () {
             try {
                 $("#modaldit355").modal();
             }
