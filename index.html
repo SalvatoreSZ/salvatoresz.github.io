@@ -46,7 +46,7 @@
                     style="background-image:url(&quot;assets/img/pic.png&quot;);height:190px;width:190px;">
                 </div>
                 <div class="about-me">
-                    <p data-aos="zoom-out" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">Hello! I'm
+                    <p data-aos="zoom-out" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">Hi! I'm
                         <strong>Salvatore</strong>.<br>I'm an IT professional with an interest in
                         <br>Software Innovation,&nbsp;E-Sports, IT Security and Psychology.<br>
                         <a class="home-caption font-weight-light" style="margin-top: 0px;">Currently seeking
@@ -73,7 +73,7 @@
                                 <div class="view overlay">
                                     <img class="img-fluid image" src="assets/img/677046.png"
                                         style="width:453px;height:243px;">
-                                    <div class="mask flex-center white-text" style="font-size:larger; cursor:pointer;">
+                                    <div class="mask flex-center white-text overlay-text">
                                         Self-driving car for intersection handling</div>
                                 </div>
                             </a>
@@ -94,7 +94,7 @@
                                         <div class="modal-body row">
                                             <div class="col-md-3">
                                                 <div class="modal-body row">
-                                                    <img src="assets/img/dit638.gif" width="100%">
+                                                    <img src="assets/img/dit638.gif" width="70%" height="70%">
                                                 </div>
                                                 <div class="modal-body row" style="text-align:left">
                                                     <h5 class="modal-title">Technologies:</h5>
@@ -226,9 +226,9 @@
                         <div class="col-md-6 col-lg-4 item zoom-on-hover">
                             <a id="modal_DIT355" type="button">
                                 <div class=" view overlay">
-                                    <img class="img-fluid image" src="assets/img/distributed_system.png"
+                                    <img class="img-fluid image" src="assets/img/distributed_system.jpg"
                                         style="width:453px;height:243px;">
-                                    <div class="mask flex-center white-text" style="font-size:larger; cursor:pointer;">
+                                    <div class="mask flex-center white-text overlay-text">
                                         UML Class Diagram generator</div>
                                 </div>
                             </a>
@@ -241,7 +241,7 @@
                                 <div class=" view overlay">
                                     <img class="img-fluid image" src="assets/img/ai-brain_46706-608.jpg"
                                         style="width:453px;height:243px;">
-                                    <div class="mask flex-center white-text" style="font-size:larger; cursor:pointer;">
+                                    <div class="mask flex-center white-text overlay-text">
                                         MBTI AI Predictor</div>
                                 </div>
                             </a>
@@ -251,6 +251,7 @@
                     </div>
                     <!--Row end-->
 
+                    <!-- Start library software preview-->
                     <div class="row no-gutters">
                         <div class="col-md-6 col-lg-4 item zoom-on-hover">
                             <a id="modal_DIT355" type="button" href="https://gitlab.com/TeamTen/DIT092-LibSys">
@@ -258,24 +259,27 @@
                                     <img class="img-fluid image"
                                         src="assets/img/88460439-online-library-concept-laptop-with-book-shelves-vector-illustration.jpg"
                                         style="width:453px;height:243px;">
-                                    <div class="mask flex-center white-text" style="font-size:larger; cursor:pointer;">
+                                    <div class="mask flex-center white-text overlay-text">
                                         Library Manager</div>
                                 </div>
 
                             </a>
                         </div>
+                    <!-- End library software preview-->
 
-
+                    
+                    <!-- Start parallel parking car preview-->
                         <div class="col-md-6 col-lg-4 item zoom-on-hover">
                             <a id="modal_DIT355" type="button" href="https://github.com/Georgesarkis/DIT112">
                                 <div class=" view overlay">
                                     <img class="img-fluid image" src="assets/img/download.jpg"
                                         style="width:408px;height:243px;">
-                                    <div class="mask flex-center white-text" style="font-size:larger; cursor:pointer;">
+                                    <div class="mask flex-center white-text overlay-text">
                                         Autonomous Parallel Parking</div>
                                 </div>
                             </a>
                         </div>
+                    <!-- End parallel parking car preview-->
 
                     </div>
                 </div>
@@ -377,8 +381,8 @@
         $(document).ready(function () {
             $("#modal_DIT638").click(testModal);
             $("#modal_DIT355").click(testModal2);
-            $("#modal_DIT824").click(testModal2);
-            $("#modal_DIT355").click(testModal2);
+            $("#modal_DIT824").click(testModal3);
+            $("#modal_DIT355").click(testModal4);
         })
 
         var testModal = function () {
