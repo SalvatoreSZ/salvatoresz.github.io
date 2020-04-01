@@ -33,8 +33,11 @@
 
     <!--alternative: fixed-top-->
     <nav class="navbar navbar-dark navbar-expand-lg  bg-white portfolio-navbar gradient">
-        <div class="container"><a class=" logo no-cursor">About me</a><button class="navbar-toggler"
-                data-toggle="collapse" data-target="#navbarNav" style="color:rgba(255,255,255,0);"></button>
+        <div class="container">
+                <a href="#aboutme" style="color:white;" margin-left: 1em; margin-right: 1em;">About me</a>
+                <a href="#projects" style="color:white; margin-left: 1em; margin-right: 1em;">Academic projects</a>
+                <a href="#skills"  style="color:white; margin-left: 1em; margin-right: 1em;">Skills</a>
+                <a href="#contactme" style="color:white; margin-left: 1em; margin-right: 1em;">Contact me</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto"></ul>
             </div>
@@ -45,7 +48,7 @@
 
         <section class="portfolio-block block-intro">
 
-            <div class="container">
+            <div id="aboutme" class="container">
                 <div class="avatar"
                     style="background-image:url(&quot;assets/img/pic.png&quot;);height:190px;width:190px;">
                 </div>
@@ -64,11 +67,11 @@
 
 
 
-        <div class="container">
+        <div id="projects" class="container" >
             <p class="test">Academic Projects</p>
 
             <!--Start block section-->
-            <section class="portfolio-block photography">
+            <section  class="portfolio-block photography">
                 <div class="container">
                     <div class="row no-gutters">
                         <!--Preview Project 1-->
@@ -347,16 +350,15 @@
                 </div>
         </div>
         </section>
-        <section data-aos="fade" data-aos-delay="100" class="portfolio-block skills">
+
+        <section id="skills" data-aos="fade" data-aos-delay="100" class="portfolio-block skills">
             <div class="container">
-
-
                 <p class="test">Skills</p>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i
-                                    class="icon ion-ios-monitor pulse animated infinite"
+                                    class="icon ion-ios-monitor"
                                     style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Full-Stack Development</h3>
@@ -368,7 +370,7 @@
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i
-                                    class="icon ion-briefcase pulse animated infinite"
+                                    class="icon ion-briefcase"
                                     style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Project Management</h3>
@@ -379,7 +381,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header pulse animated infinite bg-transparent border-0"><i
+                            <div class="card-header  bg-transparent border-0"><i
                                     class="icon ion-android-bulb" style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Software Design</h3>
@@ -394,7 +396,7 @@
         </section>
 
         <!--Footer-->
-        <footer class="page-footer gradient" style="padding:26px;">
+        <footer id="contactme" class="page-footer gradient" style="padding:26px;">
             <div class="container">
                 <div><a class="no-cursor">Contact me</a></div>
                 <div class="social-icons">
