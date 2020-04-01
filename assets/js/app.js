@@ -69,7 +69,7 @@ $(document).ready(function() {
 			},
 			"move": {
 				"enable": true,
-				"speed": 4,
+				"speed": 2.5,
 				"direction": "none",
 				"random": true,
 				"straight": false,
