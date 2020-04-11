@@ -34,20 +34,20 @@
     <!--alternative: fixed-top-->
     <nav class="navbar navbar-dark navbar-expand-lg  bg-white portfolio-navbar gradient">
         <div class="container">
-                <a href="#aboutme" style="color:white; margin-left: 1em; margin-right: 1em;">About me</a>
-                <a href="#projects" style="color:white; margin-left: 1em; margin-right: 1em;">Academic projects</a>
-                <a href="#skills"  style="color:white; margin-left: 1em; margin-right: 1em;">Skills</a>
-                <a href="#contactme" style="color:white; margin-left: 1em; margin-right: 1em;">Contact me</a>
+            <a href="#aboutme" style="color:white; margin-left: 10px; margin-right: 10px;">About me</a>
+            <a href="#projects" style="color:white; margin-left: 10px; margin-right: 10px;">Academic projects</a>
+            <a href="#skills" style="color:white; margin-left: 10px; margin-right: 10px;">Skills</a>
+            <a href="#contactme" style="color:white; margin-left: 10px; margin-right: 10px;">Contact me</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto"></ul>
             </div>
         </div>
     </nav>
     <div id="particles-js" style="position:absolute; width:100%; margin-top:55px"></div>
+
     <main class="page landing-page">
-
-        <section class="portfolio-block block-intro">
-
+        
+        <section class="main-section portfolio-block block-intro">
             <div id="aboutme" class="container">
                 <div class="avatar"
                     style="background-image:url(&quot;assets/img/pic.png&quot;);height:190px;width:190px;">
@@ -67,11 +67,11 @@
 
 
 
-        <div id="projects" class="container" >
+        <div id="projects" class="container">
             <p class="test">Academic Projects</p>
 
             <!--Start block section-->
-            <section  class="portfolio-block photography">
+            <section class="main-section portfolio-block photography">
                 <div class="container">
                     <div class="row no-gutters">
                         <!--Preview Project 1-->
@@ -81,7 +81,7 @@
                                     <img class="img-fluid image" src="assets/img/677046.png"
                                         style="width:453px;height:243px;">
                                     <div class="mask flex-center white-text overlay-text">
-                                        Self-driving car for intersection handling</div>
+                                        Self-Driving Car: Intersection</div>
                                 </div>
                             </a>
                         </div>
@@ -236,7 +236,7 @@
                                     <img class="img-fluid image" src="assets/img/distributed_system.jpg"
                                         style="width:453px;height:243px;">
                                     <div class="mask flex-center white-text overlay-text">
-                                        UML Class Diagram generator</div>
+                                        UML Class Diagram Generator</div>
                                 </div>
                             </a>
                         </div>
@@ -340,7 +340,7 @@
                                     <img class="img-fluid image" src="assets/img/download.jpg"
                                         style="width:408px;height:243px;">
                                     <div class="mask flex-center white-text overlay-text">
-                                        Autonomous Parallel Parking</div>
+                                        Self-Driving Car: Parallel Parking</div>
                                 </div>
                             </a>
                         </div>
@@ -351,14 +351,13 @@
         </div>
         </section>
 
-        <section id="skills" data-aos="fade" data-aos-delay="100" class="portfolio-block skills">
+        <section id="skills" data-aos="fade" data-aos-delay="100" class="main-section portfolio-block">
             <div class="container">
                 <p class="test">Skills</p>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i
-                                    class="icon ion-ios-monitor"
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-monitor"
                                     style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Full-Stack Development</h3>
@@ -369,8 +368,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i
-                                    class="icon ion-briefcase"
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-briefcase"
                                     style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Project Management</h3>
@@ -381,8 +379,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header  bg-transparent border-0"><i
-                                    class="icon ion-android-bulb" style="background-color:rgb(4,79,128);"></i></div>
+                            <div class="card-header  bg-transparent border-0"><i class="icon ion-android-bulb"
+                                    style="background-color:rgb(4,79,128);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Software Design</h3>
                                 <p class="card-text">Ability to analyse the requirements and design software
@@ -396,9 +394,9 @@
         </section>
 
         <!--Footer-->
-        <footer id="contactme" class="page-footer gradient" style="padding:26px;">
-            <div class="container">
-                <div><a class="no-cursor">Contact me</a></div>
+        <footer id="contactme" class="main-section page-footer gradient" style="padding:26px;">
+            <div>
+                <div><a class="no-cursor" style="font-weight: bolder;">Contact me</a></div>
                 <div class="social-icons">
                     <a href="mailto:salvatore.spanuzucca@gmail.com" target="_blank">
                         <i class="icon ion-android-mail"></i>
