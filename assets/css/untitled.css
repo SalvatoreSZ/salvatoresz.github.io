@@ -61,6 +61,11 @@ main{
   color: white;
 }
 
+.navbar-element{
+  color:white;
+  width: 25%;
+  text-align: center;
+}
 .section-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 55px;
